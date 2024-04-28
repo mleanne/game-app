@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 50;
+    text-decoration-color: blue;
+  
+  }
+  nav {
+    background-color: black;
+    color: #9d2121;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  nav a {
+    color: #dd0505;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+  }
+  
+  .fuck {
+    margin-top: 50px;
+    text-align: center;
+    
+  }
+
+title {
+  color: #dd0505;
+  }

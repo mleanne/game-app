@@ -1,13 +1,40 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+}
+nav {
+  background-color: black;
+  color: #9d2121;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+nav a {
+  color: #dd0505;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  background-color: #e0ed2e;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+}
+
+/* Show the tooltip text when the link is hovered over */
+.tooltip:hover + .tooltip-text {
+  display: block;
 }
